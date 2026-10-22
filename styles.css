@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #4a6fa5, #6b8caf);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color:#F9E6A8 ;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #4a6fa5;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+em {
+    color: #3e4943;
+    font-style: italic;
+}
+strong {
+    color: #5d0b64;
+    font-weight: normal;
+}
+.hobbies-container {
+  display: flex;
+  gap: 20px;
+}
+
+.hobby {
+  text-align: center;
+}
+
+.hobby img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.about-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-row img {
+  width: 280px;
+  height: auto;
+}
+
+.about-row p {
+  font-size: 1rem;
+}
